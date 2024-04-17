@@ -1,0 +1,145 @@
+
+
+body {
+    font-family: monospace;
+    font-size: 125%;
+    color: rgb(63, 255, 37);
+}
+
+h1 {
+    margin-left: 5px;
+}
+
+#job-title {
+    margin-top: 5px;
+    font-weight: 300;
+}
+
+#main-window {
+    display: flex;
+    height: 1000px;
+    overflow: hidden;
+}
+
+#left-section {
+    flex: 1;
+    background-color: rgb(32,32,32);
+}
+
+#right-section {
+    flex: 1;
+    background-color: rgb(32,32,32);
+}
+
+#center-section {
+    flex: 9;
+    background-color: rgb(25, 25, 25);
+    padding-left: 15px;
+}
+
+input {
+    width: 482px;
+    background-color: rgb(10, 10, 10);
+    border-color: rgb(25, 25, 25);
+    border-style: solid;
+    color: rgb(63, 255, 37);
+    font-size: 75%;
+    padding-left: 15px;
+    height: 25px;
+    padding-right: 12px;
+
+}
+
+input:focus {
+    outline: none;
+    color: rgb(63, 255, 37);
+    padding-left: 15px;
+    font-size: 75%;
+    height: 25px;    
+}
+
+input[type="text"]::placeholder {
+    color: rgb(63, 255, 37);
+    opacity: 0.25;
+}
+
+#outputs-wrapper {
+    display: flex;
+    flex-direction: row;
+}
+
+#output-section {
+    margin-top: 5px;
+    padding-top: 5px;
+    width: 499px;
+    height: 70cap;
+    margin-left: 2px;
+    overflow: auto;
+    background-color: black;
+    padding-right: 10px;
+}
+
+#output {
+    color: rgb(63, 255, 37);
+    font-size: 100%;
+    padding-left: 15px;
+    white-space: pre-wrap; 
+    tab-size: 4;
+    padding-top: 10px;;
+}
+
+#output-section-2 {
+    background-color: black;
+    margin-left: 15px;
+    margin-top: 5px;
+    width: 800px
+}
+
+#output-2 {
+    font-family: 'Courier New', Courier, monospace;
+    font-size: large;
+    padding-left: 20px;
+    padding-right: 20px;
+    line-height: 25px;
+}
+
+#image-section {
+
+    margin-top: 5px;
+    background-color: black;
+    margin-left: 15px;
+    margin-right: 15px;
+    width: 260px !important;
+}
+
+#image-section img {
+    width: 230px;
+    margin-top: 15px;
+    margin-left: 15px;
+    border-collapse: separate;
+    ;
+}
+
+a:link {
+    color: rgb(63, 255, 37); /* Change to your desired color */
+}
+
+/* Change color of visited links */
+a:visited {
+    color: rgb(30, 121, 18);
+}
+
+
+::-webkit-scrollbar {
+    width: 12px; /* Adjust scrollbar width */
+}
+::-webkit-scrollbar-thumb {
+background-color: black; /* Change thumb color */
+border-radius: 6px; /* Adjust thumb border radius */
+}
+::-webkit-scrollbar-track {
+background-color: rgb(40,40,40); /* Change track color */
+}
+::-webkit-scrollbar-corner {
+background-color: rgb(25, 25, 25); /* Change corner color */
+}
