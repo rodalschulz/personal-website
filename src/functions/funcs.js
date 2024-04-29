@@ -42,12 +42,12 @@ const baseStats = [
 const codeStats = [
   `CODE STATS - ${shorterDate}`,
   "- Specialization:    Backend Development",
-  "- Level:             Entry-Level",
+  "- Level:             Junior",
   "- Languages+:        JavaScript (proficient)",
   "                     CSS, HTML (proficient)",
   "                     Python (proficient)",
   "                     SQL (intermediate)",
-  "                     Java (intermediate)",
+  "                     Bash (intermediate)",
   "                     TypeScript (learning)",
   "                     Golang (learning)",
   "- Stack:             MongoDB",
@@ -58,6 +58,7 @@ const codeStats = [
   "- Other:             WebScraping, Selenium",
   "                     Pandas, Tauri",
   "                     Excel, Power BI",
+  "                     Postman",
   "- Tools:             Git & GitHub",
   "                     VS Code",
   "                     Postman",
@@ -105,82 +106,82 @@ const downloads = [
 const invalid = ["$ Error:             Invalid command ", "~"];
 
 const showAbout = [
-  "                             ABOUT",
-  " INTRO:",
+  "   ABOUT",
+  "► Intro",
   `
-  Hey there, I'm Rod! An enthusiastic and optimistic software developer 
-  driven by a passion for continuous learning and productivity. My
-  moderate finance background has helped me understand the importance
-  of contributing to shareholder value, and I'm excited to bring that
-  efficiency mindset to the world of software; along with, of course,
-  an abundant dose of innovation, creativity and problem-solving skills.
+  Versatile software developer with solid experience in backend development, 
+  database management, data validation, user authentication and more.
+  Committed to continual learning and driven by an optimistic outlook.
   `,
-
-  " EXPLORING FINANCE:",
+  "► Exploring Finance",
   `
-  Over the past few years, I dedicated myself to studying finance, 
-  culminating in my successful completion of the CFA Level 1 exam in
-  February 2023, where I achieved a commendable score in the 90th 
-  percentile. I mention this, because this accomplishment instilled 
-  in me a profound belief that with dedication and effort, one can
-  learn almost anything.
+  Over the past few years, I've immersed myself in the study of finance, 
+  a journey that reached a significant milestone with the successful
+  completion of the CFA Level 1 exam in February 2023. 
   `,
-  " A NEW BEGINNING:",
   `
-  During my journey to enhance my professional skills, I delved into 
-  data analysis, and it was there that I had my first encounter with 
-  Python web scraping: I immediately fell in love with it.
-  So, upon deeper reflection, I realized that the field of engineering
-  has always resonated with my mind and personality, and it's where I 
-  envision dedicating myself for the many years to come.
+  Scoring in the 90th percentile, this achievement stands as a testament
+  to my dedication and commitment. It reinforced my unwavering belief that
+  with perseverance and diligence, one can master virtually anything.
+  `,
+  "► A new discovery",
+  `
+  In my pursuit of professional growth, I explored data analysis, where my
+  introduction to Python web scraping sparked an instant passion. After a 
+  bunch of small coding projects, the experience allowed me to recognize that
+  engineering aligns perfectly with my aptitude and character, and it's the
+  path I'm committed to for the many years to come.
   `,
 ];
 
 const showProjects = [
-  "                          PROJECTS",
-  " ",
-  " ACTIVITY TRACKER - MERN STACK WEB APP (IN PROGRESS)",
-  `
-  A full-stack web application that allows users to track their daily
-  activities and visualize their progress. The app is built with the
-  MERN stack and uses JWT for authentication. The frontend is built
-  with React and the backend with Node.js and Express. The database
-  is MongoDB. The app is currently in the development stage.
-  There will also be a PC version of the app built with Tauri.
+  "   PROJECTS",
+  "► Activity Tracker Web/PC App (In Progress)",
+  ` Full-stack web application that allows users to track their daily 
+  activities and visualize their consistency & progress.
   `,
-  " BANK DATA EXTRACTION - PYTHON WEB SCRAPING PC APP",
-  `
-  My first coding project, a Python web scraping application with a GUI
-  that extracts bank data from a 5 local bank websites. The app is built
-  with Python, tkinter and Selenium and extracts data from the bank's
-  website and stores it in a CSV file. It also has a feature that integrates
-  with the model below.
+  ` Built using the MERN tech stack, it uses JWT for authentication
+  and will have compatibility with iOS and android.
   `,
-  " PERSONAL FINANCE MODEL - EXCEL",
-  `
-  A personal finance model built with Excel that allows users to
-  track their income, expenses, investments, net worth and more. The model
-  is built entirely in Excel.
+  ` The app is currently under development; it will also have a PC
+  version built with Tauri, for MAC, Windows & Linux.
+  `,
+  "► Bank Data Extraction PC App - Webscraping / Python",
+  ` First coding project implementing a simple GUI; built with
+  python's tkinter library, it also uses selenium and pandas.
+  `,
+  ` A PC app for the user to download their bank data in one single
+  organized format and CSV by web-scraping different peruvian bank
+  websites where they maintain debit and/or credit bank accounts.
+  `,
+  ` Extracts data from HTML (no API access) & stores only new
+  transactions; it also integrates with the model below.
+  `,
+  "► Excel Personal Finance Model",
+  ` Multi featured excel financial model to track expenses, income,
+  debt, net worth, and other metrics.
+  `,
+  ` It shows a variety of charts to present the monthly data using
+  pivot tables and other tools
   `,
 ];
 
 const showAcademic = [
-  "                      ACADEMIC BACKGROUND",
-  " ",
-  " SOFTWARE DEVELOPMENT",
+  "   ACADEMIC BACKGROUND",
+  "► SOFTWARE DEVELOPMENT",
 
-  "Course Careers:                                     ",
-  "- Software Development Fundamentals (scored 84% in the final exam)",
-  "- Backend Development (scored 82% in the final exam)",
+  " Course Careers:",
+  " Software Development Fundamentals (scored 84% in the final exam)",
+  " Backend Development (scored 82% in the final exam)",
 
-  " FINANCE STUDIES",
+  "► FINANCE STUDIES",
   `
     Various courses on finance, accounting and valuation, including the
     free but outstanding course from LAFF and BLS Inc. & Brigham Young
     University: "Introduction to Accounting", but most notably, the
-    CFA Level 1 exam, which I passed in February 2023 (90th percentile).
+    CFA Level 1 exam, which I passed in February 2023.
   `,
-  " COLLEGE DEGREE",
+  "► COLLEGE DEGREE",
   `
   Audiovisual Communication Bachelor at the Pontificia Universidad Catolica 
   del Peru (PUCP).
@@ -188,53 +189,64 @@ const showAcademic = [
 ];
 
 const showExperience = [
-  "                      WORK EXPERIENCE",
-  " ",
-  " Own Projects & Seeking Employment (Mar 2024 - Present)",
-  `
-  Currently focusing on my own projects and seeking employment as a remote
-  backend developer. I'm working on a full-stack web application to track
-  daily activities and a PC version of the app built with Tauri. I'm also
-  learning TypeScript and Golang to expand my skillset.
+  "   WORK EXPERIENCE",
+  "► Own Projects & Seeking Employment (Mar 2024 - Present)",
+  ` Currently focusing on my own projects and seeking employment as a remote
+  backend developer.
   `,
-  " Real Estate Agent, Self Employed (Aug 2020 - june 2022)",
-  `
-  As a side hustle, I worked as a Real Estate Agent in Lima working with
-  different home sellers. I earned my Real Estate Agent official permit
-  and closed a few rentals and selling operations. Eventually I ceased
-  this occupation due to the state of the real estate market in Lima and
-  also to dedicate my self more to my education in finance.
+  ` Mainly working on a full-stack web application to track daily activities 
+  and a PC version of the app built with Tauri.
   `,
-  " Project Controller — Vistanova S.A.C (Sep 2019 - Mar 2024)",
-  `
-  Worked as a project controller for the construction of a multi apartment
-  building in Lima, Peru. My daily tasks were related to accounting,
-  constantly communicating with the head accountant of the company
-  and managing construction workers payroll. I also provided financial
-  forecasts and reports on the project's profitability. I used Microsoft Excel
-  as my main work tool.
+  "► Project Controller — Vistanova S.A.C (Sep 2019 - Mar 2024)",
+  ` Worked as a project controller for the development of a multifamily
+  apartment building in Santiago de Surco, Lima.
+  `,
+  ` Daily tasks related to accounting and database management, constantly
+  communicating with the head accountant.
+  `,
+  ` Managed construction worker payrolls and established an automatic
+  system for pay determination.
+  `,
+  ` Constant error checking of accounting documents presented to the tax
+  authority, resulting in 20k+ of savings.
+  `,
+  ` Direct contact and management of construction workers regarding
+  attendance and punctuality.
+  `,
+  "► Real Estate Agent, Self Employed (Aug 2020 - june 2022)",
+  ` Officially registered Real Estate Agent in the Peruvian’s Ministerio 
+  de Vivienda, dedicated to rentals and sales.
+  `,
+  ` Worked independently as a realtor, in direct contact with sellers and
+  buyers, aiding with decision-making, property valuation, and 3d modelling
+  for home renovations.
+  `,
+  ` Gained experience at cold calling and handling client needs and preferences.
   `,
 ];
 
 const showProgramming = [
-  "                    PROGRAMMING JOURNEY",
-  " ",
-  " FOUND THE WAY",
+  "   PROGRAMMING JOURNEY",
+  "► Found the way",
   `
   My journey into the world of programming began in November 22nd, 2023, when
-  I decided to learn Python for data analysis. I started doing some web scraping
-  projects and immediately fell in love.
-  I love the idea of making websites, apps and software that can help people
-  in their daily lives.
+  I decided to learn Python for data analysis.
   `,
-  " ",
-  ` MY PASSION`,
+  " ",
+  `
+  I started doing some web scraping   projects and immediately fell in love 
+  with coding.
+  `,
+  " ",
+  `
+  I love the idea of creating software that adds value to people's lives.
+  `,
+  `► My Interests`,
   `
   I'm passionate about the advancements in AI, LLMs, deep learning, and also 
-  the potential integration of this in the realm of VR game development, which 
+  the potential integration of this in the realm of VR game development, which I 
   intend to also learn in the future.
   `,
-  "~",
 ];
 
 const cmd = {

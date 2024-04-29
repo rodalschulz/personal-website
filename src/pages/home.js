@@ -154,7 +154,15 @@ const Home = () => {
           <section id="output-section-2" className="section">
             {commandOut2.map((value, index) => (
               <div key={index} id="output-2">
-                {value.slice(0, 1) === " " ? <h3>{value}</h3> : value}
+                {value.slice(0, 1) === "►" ? (
+                  <h4>{value}</h4>
+                ) : value.slice(0, 3) === "   " ? (
+                  <h3>{value}</h3>
+                ) : value.slice(0, 1) === " " ? (
+                  <li>{value}</li>
+                ) : (
+                  value
+                )}
               </div>
             ))}
           </section>
