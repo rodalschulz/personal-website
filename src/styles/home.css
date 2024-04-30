@@ -26,12 +26,12 @@ h3 {
 }
 
 #left-section {
-    flex: 1;
+    flex: 0.5;
     background-color: rgb(32,32,32);
 }
 
 #right-section {
-    flex: 1;
+    flex: 0.5;
     background-color: rgb(32,32,32);
 }
 
@@ -155,4 +155,17 @@ background-color: rgb(16,16,16); /* Change corner color */
 li {
     padding-left: 4%;
     text-indent: -20px;
+}
+
+
+@media (max-width: 600px) {
+    #left-section {
+      display: none;
+    }
+    #right-section {
+        display: none;
+    }
+    input {
+        width: 90%;
+    }
 }
