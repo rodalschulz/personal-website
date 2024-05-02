@@ -90,16 +90,15 @@ const links = [
   `SOCIAL MEDIA LINKS - ${shorterDate}`,
   "https://www.linkedin.com/in/rodrigo-schulz-rosas/",
   "https://github.com/rodalschulz",
-  "https://twitter.com/RodSR19",
   "~",
 ];
 
 const downloads = [
   `DOWNLOAD FILES - ${shorterDate}`,
   "- Resume:",
-  "https://drive.google.com/file/d",
+  "https://drive.google.com/just-a-test-link",
   "- CFA Lvl 1:",
-  "https://drive.google.com/file/d",
+  "https://drive.google.com/just-a-test-link",
   "~",
 ];
 
@@ -115,10 +114,11 @@ const showAbout = [
   `,
   "► Exploring Finance",
   `
-  Over the past few years, I've immersed myself in the study of finance, 
+  Over the past few years I immersed myself in the study of finance, 
   a journey that reached a significant milestone with the successful
   completion of the CFA Level 1 exam in February 2023. 
   `,
+  " ",
   `
   Scoring in the 90th percentile, this achievement stands as a testament
   to my dedication and commitment. It reinforced my unwavering belief that
@@ -229,23 +229,31 @@ const showProgramming = [
   "   PROGRAMMING JOURNEY",
   "► Found the way",
   `
-  My journey into the world of programming began in November 22nd, 2023, when
-  I decided to learn Python for data analysis.
+  My venture into the world of programming kicked off on November 22nd, 2023, 
+  with a simple goal in mind: to learn Python for data analysis.
+  I started off by diving into some web scraping projects, and it didn't take 
+  long for me to become completely hooked with coding.
   `,
   " ",
   `
-  I started doing some web scraping   projects and immediately fell in love 
-  with coding.
+  There's something incredibly satisfying about writing lines of code and
+  seeing them come to life.
+  But what really drives me is the idea that through programming, I can create
+  something that makes a difference in people's lives. Whether it's a tool that
+  simplifies a task or a program that provides valuable insights, the potential
+  to impact others in a meaningful way is what keeps me a coding addict.
   `,
   " ",
-  `
-  I love the idea of creating software that adds value to people's lives.
-  `,
   `► My Interests`,
   `
-  I'm passionate about the advancements in AI, LLMs, deep learning, and also 
-  the potential integration of this in the realm of VR game development, which I 
-  intend to also learn in the future.
+  I'm deeply passionate about the incredible strides being made in AI, 
+  particularly in fields like LLMs and deep learning. The potential for these
+  advancements to revolutionize various industries is truly mind-blowing.
+  Moreover, I'm excited about the possibility of integrating AI technologies
+  into the realm of VR game development. It's a fascinating intersection that
+  holds immense promise for creating immersive and dynamic gaming experiences.
+  In fact, I'm eager to delve into VR game development myself in the near
+  future, adding another layer to my ever-expanding skill set.
   `,
 ];
 

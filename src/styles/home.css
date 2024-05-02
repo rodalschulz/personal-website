@@ -76,14 +76,14 @@ input[type="text"]::placeholder {
 #output-section {
     margin-top: 5px;
     padding-top: 5px;
-    width: 499px !important;
+    width: 400px !important;
     height: 70cap;
     margin-left: 2px;
     overflow: auto;
     background-color: rgb(15, 15, 15);
     padding-right: 10px;
     flex-grow: 2;
-    min-width: 450px;
+    min-width: 350px;
 }
 
 #output {
@@ -99,7 +99,7 @@ input[type="text"]::placeholder {
     background-color: rgb(15, 15, 15);
     margin-left: 15px;
     margin-top: 5px;
-    width: 800px;
+    width: 949px;
     min-width: 450px;
     flex-grow: 2;
 }
@@ -167,5 +167,12 @@ li {
     }
     input {
         width: 90%;
+    }
+    #output {
+        padding-left: 4px;
+        font-size: 71%;
+    }
+    #output-2 {
+        font-size: 80%;
     }
 }
