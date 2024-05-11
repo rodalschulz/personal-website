@@ -17,7 +17,6 @@ const help = [
   "- show projects:     personal projects",
   "- show academic:     academic background",
   "- show experience:   work experience",
-  "- show programming:  coding journey",
   "",
   "",
   "- exit:              exit all screens",
@@ -171,8 +170,8 @@ const showAcademic = [
   "► SOFTWARE DEVELOPMENT",
 
   " Course Careers:",
-  " Software Development Fundamentals (scored 84% in the final exam)",
-  " Backend Development (scored 82% in the final exam)",
+  " Software Development Fundamentals",
+  " Backend Development",
 
   "► FINANCE STUDIES",
   `
@@ -222,38 +221,6 @@ const showExperience = [
   for home renovations.
   `,
   ` Gained experience at cold calling and handling client needs and preferences.
-  `,
-];
-
-const showProgramming = [
-  "   PROGRAMMING JOURNEY",
-  "► Found the way",
-  `
-  My venture into the world of programming kicked off on November 22nd, 2023, 
-  with a simple goal in mind: to learn Python for data analysis.
-  I started off by diving into some web scraping projects, and it didn't take 
-  long for me to become completely hooked with coding.
-  `,
-  " ",
-  `
-  There's something incredibly satisfying about writing lines of code and
-  seeing them come to life.
-  But what really drives me is the idea that through programming, I can create
-  something that makes a difference in people's lives. Whether it's a tool that
-  simplifies a task or a program that provides valuable insights, the potential
-  to impact others in a meaningful way is what keeps me a coding addict.
-  `,
-  " ",
-  `► My Interests`,
-  `
-  I'm deeply passionate about the incredible strides being made in AI, 
-  particularly in fields like LLMs and deep learning. The potential for these
-  advancements to revolutionize various industries is truly mind-blowing.
-  Moreover, I'm excited about the possibility of integrating AI technologies
-  into the realm of VR game development. It's a fascinating intersection that
-  holds immense promise for creating immersive and dynamic gaming experiences.
-  In fact, I'm eager to delve into VR game development myself in the near
-  future, adding another layer to my ever-expanding skill set.
   `,
 ];
 

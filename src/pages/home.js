@@ -58,10 +58,6 @@ const Home = () => {
         setImage(true);
         setCommandOut2WithFlicker(cmd.showExperience, true, 30, 6);
         break;
-      case "show programming":
-        setImage(true);
-        setCommandOut2WithFlicker(cmd.showProgramming, true, 30, 6);
-        break;
       case "show projects":
         setImage(true);
         setCommandOut2WithFlicker(cmd.showProjects, true, 30, 6);
