@@ -236,7 +236,6 @@ const cmd = {
   showAbout,
   showAcademic,
   showExperience,
-  showProgramming,
   showProjects,
 };
 
