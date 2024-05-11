@@ -95,9 +95,9 @@ const links = [
 const downloads = [
   `DOWNLOAD FILES - ${shorterDate}`,
   "- Resume:",
-  "https://drive.google.com/just-a-test-link",
+  "https://drive.google.com/file/d/16z2Iyu9JqhWqq49rhtjCN7N13FxkMjVY/view?usp=drive_link",
   "- CFA Lvl 1:",
-  "https://drive.google.com/just-a-test-link",
+  "https://drive.google.com/file/d/1qPrwwAKj4BNr5GLgYL674n_uv-WQlys8/view?usp=drive_link",
   "~",
 ];
 
