@@ -76,7 +76,7 @@ input[type="text"]::placeholder {
 #output-section {
     margin-top: 5px;
     padding-top: 5px;
-    width: 400px !important;
+    width: 410px !important;
     height: 70cap;
     margin-left: 2px;
     overflow: auto;
@@ -88,7 +88,7 @@ input[type="text"]::placeholder {
 
 #output {
     color: rgb(90, 156, 81);
-    font-size: 95%;
+    font-size: 92%;
     padding-left: 15px;
     white-space: pre-wrap; 
     tab-size: 4;
