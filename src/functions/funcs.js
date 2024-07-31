@@ -41,21 +41,26 @@ const baseStats = [
 const codeStats = [
   `CODE STATS - ${shorterDate}`,
   "- Specialization:    Backend Development",
+  "- Also Capable:      Frontend Development",
   "- Level:             Junior",
-  "- Languages+:        JavaScript (proficient)",
-  "                     CSS, HTML (proficient)",
-  "                     Python (proficient)",
-  "                     SQL (intermediate)",
-  "                     Bash (intermediate)",
-  "                     TypeScript (learning)",
-  "                     Golang (learning)",
-  "- Stack:             MongoDB",
+  "- Languages+:        JavaScript",
+  "                     TypeScript",
+  "                     Python",
+  "                     Java",
+  "                     HTML/CSS",
+  "                     SQL",
+  "                     Bash",
+  "                     Golang",
+  "- Technologies:      MongoDB",
+  "                     PostgreSQL",
   "                     Express",
   "                     React",
-  "                     Node.js",
-  "                     PostgreSQL",
+  "                     Next",
+  "                     Node",
+  "                     Vercel",
+  "                     Docker",
   "- Other:             WebScraping, Selenium",
-  "                     Pandas, Tauri",
+  "                     Pandas",
   "                     Excel, Power BI",
   "                     Postman",
   "- Tools:             Git & GitHub",
@@ -68,7 +73,8 @@ const codeStats = [
 const jobSearch = [
   `JOB SEARCH - ${shorterDate}`,
   "- Position:          Backend Developer",
-  "- Modality:          Fully Remote",
+  "- Position (or):     Fullstack Developer",
+  "- Modality:          Fully Remote / Hybrid",
   "- Availability:      Full-time",
   "- Salary:            Negotiable",
   "- Start Date:        Immediate",
@@ -86,9 +92,11 @@ const contact = [
 ];
 
 const links = [
-  `SOCIAL MEDIA LINKS - ${shorterDate}`,
+  `LINKS - ${shorterDate}`,
   "https://www.linkedin.com/in/rodrigo-schulz-rosas/",
   "https://github.com/rodalschulz",
+  "Personal Project (activity tracker):",
+  "https://tictally.io",
   "~",
 ];
 
@@ -128,22 +136,29 @@ const showAbout = [
   In my pursuit of professional growth, I explored data analysis, where my
   introduction to Python web scraping sparked an instant passion. After a 
   bunch of small coding projects, the experience allowed me to recognize that
-  engineering aligns perfectly with my aptitude and character, and it's the
-  path I'm committed to for the many years to come.
+  software engineering aligns perfectly with my aptitude and character, and it's 
+  the path I'm committed to for the many years to come.
   `,
 ];
 
 const showProjects = [
   "   PROJECTS",
-  "► Activity Tracker Web/PC App (In Progress)",
+  "► Virtual AI Chat (Currently in Progress)",
+  ` Users can chat with different AI personalities and make friends. 
+  `,
+  ` The AI personality has some level of memory of the real users it meets.
+  `,
+  ` Currently being build using Next.js and deploying in Vercel.
+  `,
+  "► Activity Tracker - tictally - Full Stack Web App (MERN)",
   ` Full-stack web application that allows users to track their daily 
   activities and visualize their consistency & progress.
   `,
-  ` Built using the MERN tech stack, it uses JWT for authentication
-  and will have compatibility with iOS and android.
+  ` Built using the MERN tech stack, authentication with JWT, both backend
+  and frontend up and running in Vercel.
   `,
-  ` The app is currently under development; it will also have a PC
-  version built with Tauri, for MAC, Windows & Linux.
+  ` The web app is currently available at www.tictally.io; I personally use
+  it every day to stay motivated, focused and track what I do. 
   `,
   "► Bank Data Extraction PC App - Webscraping / Python",
   ` First coding project implementing a simple GUI; built with
@@ -155,13 +170,6 @@ const showProjects = [
   `,
   ` Extracts data from HTML (no API access) & stores only new
   transactions; it also integrates with the model below.
-  `,
-  "► Excel Personal Finance Model",
-  ` Multi featured excel financial model to track expenses, income,
-  debt, net worth, and other metrics.
-  `,
-  ` It shows a variety of charts to present the monthly data using
-  pivot tables and other tools
   `,
 ];
 
@@ -175,10 +183,10 @@ const showAcademic = [
 
   "► FINANCE STUDIES",
   `
-    Various courses on finance, accounting and valuation, including the
-    free but outstanding course from LAFF and BLS Inc. & Brigham Young
-    University: "Introduction to Accounting", but most notably, the
-    CFA Level 1 exam, which I passed in February 2023.
+    Various courses on finance, accounting and valuation in Lima Peru, 
+    including the free but outstanding course from LAFF and BLS Inc. & 
+    Brigham Young University: "Introduction to Accounting". Most notably,
+    the CFA Level 1 exam, which I passed in February 2023.
   `,
   "► COLLEGE DEGREE",
   `
@@ -191,7 +199,7 @@ const showExperience = [
   "   WORK EXPERIENCE",
   "► Own Projects & Seeking Employment (Mar 2024 - Present)",
   ` Currently focusing on my own projects and seeking employment as a remote
-  backend developer.
+  backend or fullstack developer.
   `,
   ` Mainly working on a full-stack web application to track daily activities 
   and a PC version of the app built with Tauri.
