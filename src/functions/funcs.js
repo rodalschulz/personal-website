@@ -63,9 +63,7 @@ const codeStats = [
   "                     Pandas",
   "                     Excel, Power BI",
   "                     Postman",
-  "- Tools:             Git & GitHub",
-  "                     VS Code",
-  "                     Postman",
+  "                     Unit Testing",
   "- Started Coding:    2023-11-22",
   "~",
 ];
