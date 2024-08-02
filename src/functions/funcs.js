@@ -59,6 +59,7 @@ const codeStats = [
   "                     Node",
   "                     Vercel",
   "                     Docker",
+  "                     Tailwind",
   "- Other:             WebScraping, Selenium",
   "                     Pandas",
   "                     Excel, Power BI",
