@@ -72,9 +72,9 @@ const codeStats = [
 const jobSearch = [
   `JOB SEARCH - ${shorterDate}`,
   "- Position:          Backend Developer",
-  "- Position (or):     Fullstack Developer",
+  "- Also:              Fullstack Developer",
   "- Modality:          Fully Remote / Hybrid",
-  "- Availability:      Full-time",
+  "- Availability:      Full-time / Contract",
   "- Salary:            Negotiable",
   "- Start Date:        Immediate",
   "- Relocation:        Currently Unavailable",
