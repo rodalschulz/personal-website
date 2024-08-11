@@ -57,6 +57,7 @@ const codeStats = [
   "                     React",
   "                     Next",
   "                     Node",
+  "                     Django",
   "                     Vercel",
   "                     Docker",
   "                     Tailwind",
