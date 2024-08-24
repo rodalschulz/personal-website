@@ -144,9 +144,10 @@ const showAbout = [
 const showProjects = [
   "   PROJECTS",
   "► Virtual AI Chat (Currently in Progress)",
-  ` Users can chat with different AI personalities and make friends. 
+  ` Users can chat with different AI personalities and experiment with constantly
+  evolving relationships.
   `,
-  ` The AI personality has some level of memory of the real users it meets.
+  ` The AI personality has some level of persistent memory about the real users it meets.
   `,
   ` Currently being build using Next.js and deploying in Vercel.
   `,
@@ -201,8 +202,9 @@ const showExperience = [
   ` Currently focusing on my own projects and seeking employment as a remote
   backend or fullstack developer.
   `,
-  ` Mainly working on a full-stack web application to track daily activities 
-  and a PC version of the app built with Tauri.
+  ` Mainly working on full stack web apps built with javascript, node, react,
+    typescript, nextjs, mongodb and deployed on vercel. Soon I will also deploy
+    APIs and full stack web apps using django, AWS and other technologies.
   `,
   "► Project Controller — Vistanova S.A.C (Sep 2019 - Mar 2024)",
   ` Worked as a project controller for the development of a multifamily
