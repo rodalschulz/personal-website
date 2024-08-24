@@ -33,8 +33,8 @@ const baseStats = [
   "- Nationality:       Peruvian",
   "- Location:          Lima, Peru",
   "- Timezone:          GMT-5",
-  "- Languages:         Spanish (native)",
-  "                     English (fluent)",
+  "- Languages:         Spanish",
+  "                     English",
   "~",
 ];
 
